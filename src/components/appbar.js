@@ -17,7 +17,7 @@ import { Dialog } from "@mui/material";
 import renderContext from "./renderContext";
 import { ThemeProvider } from "@mui/material/styles";
 import { lightTheme, darkTheme } from "./theme";
-import Resume from "../Resources/Resume.pdf"
+import Resume from "../Resources/Resume.pdf";
 
 const pages = ["Home", "Work History", "My Works", "Brands", "Contact Me"];
 
@@ -167,7 +167,7 @@ function Bar() {
             ))}
           </Box>
           <Box pr={"2%"} sx={{ display: { xs: "flex", md: "none" } }}>
-            <IconButton>
+            <IconButton href={Resume} download={"Resume.pdf"}>
               <DownloadIcon sx={{ color: "white" }} fontSize="large" />
             </IconButton>
           </Box>
@@ -175,7 +175,7 @@ function Bar() {
             <Button
               variant="outlined"
               endIcon={<DownloadIcon sx={{ color: "white" }} />}
-              href = {Resume}
+              href={Resume}
               download={"Resume.pdf"}
             >
               <Typography
