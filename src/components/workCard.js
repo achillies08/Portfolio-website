@@ -100,6 +100,7 @@ const WorkCard = (work) => {
               alignContent="center"
               // pl={{ xs: "12%", md: "6%" }}
               spacing={2}
+              pb = "2%"
             >
               {/* Video */}
               {work[3].map((item) => (
