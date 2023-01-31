@@ -12,6 +12,7 @@ import BestWork from "./bestWorks";
 import renderContext from "./renderContext";
 import { ThemeProvider } from "@mui/material/styles";
 import { lightTheme, darkTheme } from "./theme";
+import Testimonials from "./testimonials";
 
 function App() {
   const [dark, setDark] = React.useState(false);
@@ -27,6 +28,7 @@ function App() {
               <WorkTimeline />
               <BestWork/>
               <Works />
+              {/* <Testimonials/> */}
               <Contact />
               <ThemeButton />
               <Footer />

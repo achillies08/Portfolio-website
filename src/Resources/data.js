@@ -38,7 +38,12 @@ const fftImg = importAll(
 const fftVid = importAll(
   require.context("./work/VlccFoodForThought", false, /\.(mp4)$/)
 );
-
+const sugarImg = importAll(
+  require.context("./work/NoSugarCoating", false, /\.(png|jpe?g|svg)$/)
+);
+const sugarVid = importAll(
+  require.context("./work/NoSugarCoating", false, /\.(mp4)$/)
+);
 const data = {
   about: [
     "I'm not here to bore you with the regular copywriter's stuff like imaginative, creative, compelling, and other adjectives ( which I'm btw) in the about me section. For demonstrating this I have made this portfolio. Storytelling is what I want to do! Any way you want to hear, I'm ready to craft a story and tell it to you! Stories are the reason, I was first attracted to ads ( Happydent Ads-Tera Mann Roshan, Tera Dil Roshan) and since then I wanted to tell stories.",
@@ -73,6 +78,12 @@ const data = {
     ["Unacademy", "Unacademy.png"],
   ],
   bestWorks: [
+    [
+      "#NoSugarCoating",
+      "Campaign designed  for World Diabetes Day under the name of #NoSugarCoating. The campaign aimed to raise awareness about the importance of cutting sugar in our diet to maintain a healthy lifestyle and prevent diabetes. The name of the campaign was chosen to work as a double entendre, not only emphasizing the message of reducing sugar intake but also reflecting the idea of not sugar coating the importance of this issue. The campaign was a huge success, with a large number of people actively engaging and making a conscious effort to reduce sugar in their diet. ​",
+      sugarImg,
+      sugarVid,
+    ],
     [
       "#MenKiBaat",
       "As International Men's Day is around the corner, we have dedicated this campaign towards men's health issues. As men's health issue are less discussed with #MENKIBAAT we aim to bring the problems in light, bust the stigma & misconception around and how Max@Home is contributing to cater to their needs. #MENKIBAAT invites men to be more vocal about the problems and seek help whenever they need.",
@@ -117,16 +128,38 @@ const data = {
     ],
     ["Other Works", "Some of my other notable works.", randImg, randVid],
   ],
+  testimonial: [
+    [
+      "Ex do",
+      "Non quis",
+      "Pariatur nostrud sunt",
+      "Commodo commodo cillum laboris aliquip occaecat cupidatat irure aliquip fugiat velit mollit.Minim labore aute consequat laboris cillum aliqua ut enim.",
+    ],
+    [
+      "Ex do",
+      "Non quis",
+      "Pariatur nostrud sunt",
+      "Commodo commodo cillum laboris aliquip occaecat cupidatat irure aliquip fugiat velit mollit.Minim labore aute consequat laboris cillum aliqua ut enim.",
+    ],
+    [
+      "Ex do",
+      "Non quis",
+      "Pariatur nostrud sunt",
+      "Commodo commodo cillum laboris aliquip occaecat cupidatat irure aliquip fugiat velit mollit.Minim labore aute consequat laboris cillum aliqua ut enim.",
+    ],
+    [
+      "Ex do",
+      "Non quis",
+      "Pariatur nostrud sunt",
+      "Commodo commodo cillum laboris aliquip occaecat cupidatat irure aliquip fugiat velit mollit.Minim labore aute consequat laboris cillum aliqua ut enim.",
+    ],
+    [
+      "Ex do",
+      "Non quis",
+      "Pariatur nostrud sunt",
+      "Commodo commodo cillum laboris aliquip occaecat cupidatat irure aliquip fugiat velit mollit.Minim labore aute consequat laboris cillum aliqua ut enim.",
+    ],
+  ],
 };
 
 export default data;
-
-// About Me: MANISH PANDEY, copywriter | script writer | story teller
-
-// Work Histroy: I tried so hard & got so far
-
-// Best Work:
-
-// Contact Number: Here's My Number Call Me Maybe
-
-// const images = importAll(require.context('./images', false, /\.(png|jpe?g|svg|mp4)$/));

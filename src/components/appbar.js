@@ -19,7 +19,14 @@ import { ThemeProvider } from "@mui/material/styles";
 import { lightTheme, darkTheme } from "./theme";
 import Resume from "../Resources/Resume.pdf";
 
-const pages = ["Home", "Work History", "My Works", "Brands", "Contact Me"];
+const pages = [
+  "Home",
+  "Work History",
+  "My Works",
+  "Brands",
+  "Contact Me",
+  // "Testimonials",
+];
 
 function Bar() {
   const [open, setOpen] = React.useState(false);
