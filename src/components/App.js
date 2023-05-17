@@ -5,6 +5,7 @@ import Bar from "./appbar";
 import HomePage from "./homePage";
 import Contact from "./contact";
 import WorkTimeline from "./timeline";
+import Kuhl from "./kuhl";
 import Works from "./works";
 import Footer from "./footer";
 import ThemeButton from "./themeButton";
@@ -12,7 +13,7 @@ import BestWork from "./bestWorks";
 import renderContext from "./renderContext";
 import { ThemeProvider } from "@mui/material/styles";
 import { lightTheme, darkTheme } from "./theme";
-import Testimonials from "./testimonials";
+// import Testimonials from "./testimonials";
 
 function App() {
   const [dark, setDark] = React.useState(false);
@@ -25,6 +26,7 @@ function App() {
             <Bar />
             <Box sx={{ width: "100%", height: "100%" }}>
               <HomePage />
+              <Kuhl/>
               <WorkTimeline />
               <BestWork/>
               <Works />

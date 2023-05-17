@@ -1,5 +1,11 @@
 import importAll from "../components/importAll";
 
+const kuhlImg = importAll(
+  require.context("./work/kuhl", false, /\.(png|jpe?g|svg)$/)
+);
+const kuhlVid = importAll(
+  require.context("./work/kuhl", false, /\.(mp4)$/)
+);
 const bfImg = importAll(
   require.context("./work/Beautyflip", false, /\.(png|jpe?g|svg)$/)
 );
@@ -57,6 +63,7 @@ const data = {
     ["UNACADEMY", "CATEGORY EXPERT", "OCT 2017", "FEB 2019"],
   ],
   brands: [
+    ["Kent Kühl", "kuhl.png"],
     ["Kent RO", "kent.png"],
     ["VLCC", "vlcc.png"],
     ["VLCC Luxe", "luxe.png"],
@@ -78,6 +85,12 @@ const data = {
     ["Unacademy", "Unacademy.png"],
   ],
   bestWorks: [
+    [
+      "Kühl X SRH (Under progress)",
+      "Campaign Under Progress​",
+      kuhlImg,
+      kuhlVid,
+    ],
     [
       "#NoSugarCoating",
       "Campaign designed  for World Diabetes Day under the name of #NoSugarCoating. The campaign aimed to raise awareness about the importance of cutting sugar in our diet to maintain a healthy lifestyle and prevent diabetes. The name of the campaign was chosen to work as a double entendre, not only emphasizing the message of reducing sugar intake but also reflecting the idea of not sugar coating the importance of this issue. The campaign was a huge success, with a large number of people actively engaging and making a conscious effort to reduce sugar in their diet. ​",

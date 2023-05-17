@@ -130,7 +130,6 @@ const WorkCard = (work) => {
                         alt="..."
                         sx={{
                           width: { xs: "150px", md: "250px" },
-                          height: { xs: "150px", md: "250px" },
                         }}
                       />
                     </CardActionArea>
