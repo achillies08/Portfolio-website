@@ -39,6 +39,7 @@ const BestWork = () => {
           slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 2,
+          dots:false
         },
       },
       {
@@ -46,6 +47,7 @@ const BestWork = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          dots:false,
         },
       },
     ],
@@ -57,7 +59,7 @@ const BestWork = () => {
         id="My Works"
         variant="h2"
         p={{ xs: "5%", md: "2%" }}
-        pt={{ xs: "26%", md: "6%" }}
+        pt={{ xs: "20%", md: "6%" }}
       >
         Boulevard of{" "}
         <Typography

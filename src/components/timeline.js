@@ -16,7 +16,7 @@ const WorkTimeline = () => {
   let work = data.jobs;
 
   return (
-    <Box mr={{ xs: "2%", md: "0" }}>
+    <Box mr={{ xs: "2%", md: "0" }} mt={{ xs: "35%", md: "0" }}>
       <Typography
         id="Work History"
         variant="h2"
