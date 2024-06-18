@@ -17,7 +17,7 @@ import { Dialog } from "@mui/material";
 import renderContext from "./renderContext";
 import { ThemeProvider } from "@mui/material/styles";
 import { lightTheme, darkTheme } from "./theme";
-import Resume from "../Resources/Resume.pdf";
+import Resume from "../Resources/manish-pandey.pdf";
 
 const pages = [
   "Home",
@@ -183,7 +183,7 @@ function Bar() {
               variant="outlined"
               endIcon={<DownloadIcon sx={{ color: "white" }} />}
               href={Resume}
-              download={"Resume.pdf"}
+              download={"manish-pandey.pdf"}
             >
               <Typography
                 sx={{

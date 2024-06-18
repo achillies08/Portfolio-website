@@ -6,3 +6,11 @@
 .slick-next:before {
   color: grey;
 }
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 32px;
+  line-height: 1;
+  color: gray;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -27,12 +27,15 @@ const Contact = () => {
       <Box mt={{ xs: "8%", md: "3%" }} ml={{ xs: "15%", md: "40%" }}>
         <Stack direction={"row"} pb="5%" spacing={2} alignItems="center">
           <CallIcon fontSize="large" />
+          <Button variant="text" href="tel:8851745482">
           <Typography
             variant="body2"
+            color={dark ? "#9fa2a5" : "black"}
             sx={{ fontSize: { xs: "16px", md: "24px" } }}
           >
             : 8851745482 | 9456631784
           </Typography>
+          </Button>
         </Stack>
         <Stack direction={"row"} spacing={2} alignItems="center">
           <EmailIcon fontSize="large" />

@@ -30,56 +30,63 @@ const HomePage = () => {
         <Grid item xs={12} md={6}>
           <Stack direction="column" spacing={2}>
             <Typography variant="h2">My name is Manish Pandey</Typography>
-            <Typography variant="h5">and I am not just a copywriter.</Typography>
-            <Typography
-              variant="body1"
-              align="justify"
-              fontFamily={"Montserrat"}
-              fontWeight={{xs:"400",md:"600"}}
-            >
-              I'm not here to bore you with the regular copywriter's stuff like
-              imaginative, creative, compelling, and other adjectives
-              <Typography
-                fontWeight={{xs:"400",md:"600"}}
-                fontFamily={"Montserrat"}
-                sx={{
-                  fontStyle: "italic",
-                  display: "inline",
-                  pr: "5px",
-                  pl: "5px",
-                }}
-              >
-                (which I am btw)
-              </Typography>
-              in the about me section. For demonstrating this I have made this
-              portfolio. Storytelling is what I want to do! Any way you want to
-              hear, I'm ready to craft a story and tell it to you! Stories are
-              the reason, I was first attracted to ads
-              <Typography
-               fontWeight={{xs:"400",md:"600"}}
-                fontFamily={"Montserrat"}
-                sx={{
-                  fontStyle: "italic",
-                  display: "inline",
-                  pr: "5px",
-                  pl: "5px",
-                }}
-              >
-                (Happydent Ad-Tera Mann Roshan, Tera Dil Roshan)
-              </Typography>
-              and since then I wanted to tell stories.
+            <Typography variant="h5">
+              and I am not just a copywriter.
             </Typography>
             <Typography
               variant="body1"
               align="justify"
               fontFamily={"Montserrat"}
-              fontWeight={{xs:"400",md:"600"}}
+              fontWeight={{ xs: "400", md: "600" }}
             >
-              I'm an avid motorcyclist, and cook & in the meantime, I am a
-              copywriter with a passion to make it big and tell stories that are
-              unforgettable. Working with brands ranging from travel and tourism
-              to SAAS, I have learned that stories are limitless & there isn't a
-              right or wrong way to do so.
+              I'm not here to bore you with the usual copywriter spiel about
+              being imaginative, creative, and compelling{" "}
+              <Typography
+                fontWeight={{ xs: "400", md: "600" }}
+                fontFamily={"Montserrat"}
+                sx={{
+                  fontStyle: "italic",
+                  display: "inline",
+                }}
+              >
+                (which I am, by the way)
+              </Typography>{" "}
+              in the about me section. To demonstrate this I have made this
+              portfolio. Storytelling is my thing! However you want to hear it,
+              I'm ready to craft and tell your story.
+            </Typography>
+            <Typography
+              variant="body1"
+              align="justify"
+              fontFamily={"Montserrat"}
+              fontWeight={{ xs: "400", md: "600" }}
+            >
+              I fell in love with stories with the Happydent Ad -{" "}
+              <Typography
+                fontWeight={{ xs: "400", md: "600" }}
+                fontFamily={"Montserrat"}
+                sx={{
+                  fontStyle: "italic",
+                  display: "inline",
+                }}
+              >
+                "Tera Mann Roshan, Tera Dil Roshan."
+              </Typography>{" "}
+              That ad ignited my passion for storytelling in advertising, and
+              I've been hooked ever since. Whether it's ads films, posts, or
+              through a notification, I'm all in.
+            </Typography>
+            <Typography
+              variant="body1"
+              align="justify"
+              fontFamily={"Montserrat"}
+              fontWeight={{ xs: "400", md: "600" }}
+            >
+              When I'm not writing, you'll find me chasing stories on my
+              motorcycle or perfecting my dal makhani (which could compete with
+              Moti Mahal's). Over my 7-year career working with brands from
+              travel and tourism to SaaS, I've discovered that the best ideas
+              are simple stories just waiting to be told.{" "}
             </Typography>
           </Stack>
         </Grid>

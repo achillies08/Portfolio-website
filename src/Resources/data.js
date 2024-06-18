@@ -3,27 +3,23 @@ import importAll from "../components/importAll";
 const laserImg = importAll(
   require.context("./work/laser", false, /\.(png|jpe?g|svg)$/)
 );
-const laserVid = importAll(
-  require.context("./work/laser", false, /\.(mp4)$/)
-);
+const laserVid = importAll(require.context("./work/laser", false, /\.(mp4)$/));
 const missIndiaImg = importAll(
   require.context("./work/missIndia", false, /\.(png|jpe?g|svg)$/)
 );
 const missIndiaVid = importAll(
   require.context("./work/missIndia", false, /\.(mp4)$/)
 );
-const healthyHabitImg = importAll(
-  require.context("./work/HealthyHabit", false, /\.(png|jpe?g|svg)$/)
-);
-const healthyHabitVid = importAll(
-  require.context("./work/HealthyHabit", false, /\.(mp4)$/)
-);
+// const healthyHabitImg = importAll(
+//   require.context("./work/HealthyHabit", false, /\.(png|jpe?g|svg)$/)
+// );
+// const healthyHabitVid = importAll(
+//   require.context("./work/HealthyHabit", false, /\.(mp4)$/)
+// );
 const kuhlImg = importAll(
   require.context("./work/kuhl", false, /\.(png|jpe?g|svg)$/)
 );
-const kuhlVid = importAll(
-  require.context("./work/kuhl", false, /\.(mp4)$/)
-);
+const kuhlVid = importAll(require.context("./work/kuhl", false, /\.(mp4)$/));
 const bfImg = importAll(
   require.context("./work/Beautyflip", false, /\.(png|jpe?g|svg)$/)
 );
@@ -68,13 +64,22 @@ const sugarImg = importAll(
 const sugarVid = importAll(
   require.context("./work/NoSugarCoating", false, /\.(mp4)$/)
 );
+const kuhl2Img = importAll(
+  require.context("./work/kuhl-2", false, /\.(png|jpe?g|svg)$/)
+);
+const kuhl2Vid = importAll(require.context("./work/kuhl-2", false, /\.(mp4)$/));
+const kuhl3Img = importAll(
+  require.context("./work/kuhl-3", false, /\.(png|jpe?g|svg)$/)
+);
+const kuhl3Vid = importAll(require.context("./work/kuhl-3", false, /\.(mp4)$/));
 const data = {
   about: [
-    "I'm not here to bore you with the regular copywriter's stuff like imaginative, creative, compelling, and other adjectives ( which I'm btw) in the about me section. For demonstrating this I have made this portfolio. Storytelling is what I want to do! Any way you want to hear, I'm ready to craft a story and tell it to you! Stories are the reason, I was first attracted to ads ( Happydent Ads-Tera Mann Roshan, Tera Dil Roshan) and since then I wanted to tell stories.",
-    "I'm an avid motorcyclist, and cook & in the meantime, I am a copywriter with a passion to make it big and tell unforgettable stories. Working with brands ranging from travel and tourism to SAAS, I have learned that stories are limitless & there isn't a right or wrong way to do so.",
+    "Let's skip the usual buzzwords like imaginative, creative, and compelling (though I am all those things) and get to the good stuff. Welcome to my portfolio - it's all about storytelling.",
+    "I fell in love with stories thanks to the Happydent Ad - 'Tera Mann Roshan, Tera Dil Roshan.' That ad got me hooked on storytelling in ads, and I've been at it ever since. Whether it's ads, articles, or anything else, I'm all in.",
+    "When I'm not writing, you'll find me chasing stories on my motorcycle or perfecting my dal makhani (which could compete with Moti Mahal's). Over my 7-year career working with brands from travel and tourism to SaaS, I've discovered that the best ideas are simple stories just waiting to be told.",
   ],
   jobs: [
-    ["IMARTI MEDIA ", "COPYWRITER", "OCT 2021", "PRESENT"],
+    ["IMARTI MEDIA ", "COPY SUPERVISER", "OCT 2021", "PRESENT"],
     ["COLLEGE VIDYA", "SR. COPYWRITER", "JUL 2020", "OCT 2021"],
     ["CASHURDRIVE", "CONTENT STRATEGIST", "JAN 2020", "JUN 2020"],
     ["QUIZISTAN", "COPYWRITER", "APR 2019", "DEC 2019 "],
@@ -104,6 +109,12 @@ const data = {
   ],
   bestWorks: [
     [
+      "#ForThoseWhoUnderstandArt",
+      "This campaign aimed to highlight the premium quality of Kuhl fans, presenting them as pieces of art that stand alongside the best in the world. The campaign's success was measured by key metrics, achieving a CPR of ₹0.54 and a CTR of 6.53%.",
+      kuhl3Img,
+      kuhl3Vid,
+    ],
+    [
       "#KühlFanOfTheMatch",
       "The primary objective of the Kühl Fan of the Match contest is to promote the brand and increase brand awareness among the target audience. The contest seeks to engage with fans and encourage them to share their love for cricket in a fun way! The outcome of the campaign was: an Increase in brand reach to 1376% with 7.3 M and a 564% increase in engagement with 281k. Also, the Ads performed in performance campaign to bring down the overall CPL by 34%.",
       kuhlImg,
@@ -115,12 +126,12 @@ const data = {
       missIndiaImg,
       missIndiaVid,
     ],
-    [
-      "#HealthyHabit",
-      "Max@Home is thrilled to launch the #HealthyHabit campaign, an initiative aimed at inspiring individuals to adopt healthy habits for a healthier body. With growing awareness about the importance of personal well-being, we believe it is crucial to encourage and motivate people to make positive changes in their daily routines. Leveraging the power of social media platforms, including Instagram, Facebook, and Twitter, to disseminate valuable content related to healthy habits. Through engaging visuals & interactive posts, we aim to captivate the viewers' attention and provide them with motivation to adopt healthy habits.",
-      healthyHabitImg,
-      healthyHabitVid,
-    ],
+    // [
+    //   "#HealthyHabit",
+    //   "Max@Home is thrilled to launch the #HealthyHabit campaign, an initiative aimed at inspiring individuals to adopt healthy habits for a healthier body. With growing awareness about the importance of personal well-being, we believe it is crucial to encourage and motivate people to make positive changes in their daily routines. Leveraging the power of social media platforms, including Instagram, Facebook, and Twitter, to disseminate valuable content related to healthy habits. Through engaging visuals & interactive posts, we aim to captivate the viewers' attention and provide them with motivation to adopt healthy habits.",
+    //   healthyHabitImg,
+    //   healthyHabitVid,
+    // ],
     [
       "#LaLaLaser",
       `The #LaLaLaser campaign was designed to promote VLCC's new laser service, Soprano Ice Laser, by capturing the attention of the target audience and emphasizing the benefits of laser hair removal over traditional methods such as waxing or shaving. The campaign name, #LaLaLaser, was chosen to create a connection between the pain-free nature of the Soprano Ice Laser treatment and the feeling of being in a euphoric state, "la la land." This association aimed to evoke curiosity and encourage viewers to explore the campaign further. The key objective was to generate interest and create a sense of curiosity among potential customers, while also highlighting the pain-free nature of the laser treatment. The campaign utilized visually appealing and attention-grabbing imagery to capture the viewers' attention. These visuals aimed to showcase the discomfort associated with waxing or shaving, making the audience empathize with the pain they often experience. Instead of relying heavily on text, the campaign focused on conveying the message through visuals. The use of minimal copy allowed the visuals to take center stage, ensuring a quick and impactful message delivery. The #LaLaLaser campaign proved to be highly successful, generating over 200 leads through the comment section of social media platforms. Despite having no allocated budget, the campaign's engaging visuals and relatable concept resonated with the target audience, resulting in a significant response. The campaign's effectiveness can be attributed to its ability to create a memorable and relatable experience for the viewers. By highlighting the pain experienced during traditional hair removal methods and positioning Soprano Ice Laser as a painless alternative, the campaign successfully communicated the value of VLCC's laser services.`,
@@ -176,39 +187,45 @@ const data = {
       thaiVid,
     ],
     ["Other Works", "Some of my other notable works.", randImg, randVid],
-  ],
-  testimonial: [
     [
-      "Ex do",
-      "Non quis",
-      "Pariatur nostrud sunt",
-      "Commodo commodo cillum laboris aliquip occaecat cupidatat irure aliquip fugiat velit mollit.Minim labore aute consequat laboris cillum aliqua ut enim.",
-    ],
-    [
-      "Ex do",
-      "Non quis",
-      "Pariatur nostrud sunt",
-      "Commodo commodo cillum laboris aliquip occaecat cupidatat irure aliquip fugiat velit mollit.Minim labore aute consequat laboris cillum aliqua ut enim.",
-    ],
-    [
-      "Ex do",
-      "Non quis",
-      "Pariatur nostrud sunt",
-      "Commodo commodo cillum laboris aliquip occaecat cupidatat irure aliquip fugiat velit mollit.Minim labore aute consequat laboris cillum aliqua ut enim.",
-    ],
-    [
-      "Ex do",
-      "Non quis",
-      "Pariatur nostrud sunt",
-      "Commodo commodo cillum laboris aliquip occaecat cupidatat irure aliquip fugiat velit mollit.Minim labore aute consequat laboris cillum aliqua ut enim.",
-    ],
-    [
-      "Ex do",
-      "Non quis",
-      "Pariatur nostrud sunt",
-      "Commodo commodo cillum laboris aliquip occaecat cupidatat irure aliquip fugiat velit mollit.Minim labore aute consequat laboris cillum aliqua ut enim.",
+      "#FansAboveAll",
+      "Launching our new range of fans in collaboration with Sunrisers Hyderabad, we rolled out the #FansAboveAll campaign, tapping into the cricket fervor and brand synergy. The campaign took our social media engagement by storm, achieving a brand reach of 25 million and a follower growth of 210%. Remarkably, our fans went out of stock on both Amazon and Flipkart within three weeks of the campaign's launch.",
+      kuhl2Img,
+      kuhl2Vid,
     ],
   ],
+  // testimonial: [
+  //   [
+  //     "Ex do",
+  //     "Non quis",
+  //     "Pariatur nostrud sunt",
+  //     "Commodo commodo cillum laboris aliquip occaecat cupidatat irure aliquip fugiat velit mollit.Minim labore aute consequat laboris cillum aliqua ut enim.",
+  //   ],
+  //   [
+  //     "Ex do",
+  //     "Non quis",
+  //     "Pariatur nostrud sunt",
+  //     "Commodo commodo cillum laboris aliquip occaecat cupidatat irure aliquip fugiat velit mollit.Minim labore aute consequat laboris cillum aliqua ut enim.",
+  //   ],
+  //   [
+  //     "Ex do",
+  //     "Non quis",
+  //     "Pariatur nostrud sunt",
+  //     "Commodo commodo cillum laboris aliquip occaecat cupidatat irure aliquip fugiat velit mollit.Minim labore aute consequat laboris cillum aliqua ut enim.",
+  //   ],
+  //   [
+  //     "Ex do",
+  //     "Non quis",
+  //     "Pariatur nostrud sunt",
+  //     "Commodo commodo cillum laboris aliquip occaecat cupidatat irure aliquip fugiat velit mollit.Minim labore aute consequat laboris cillum aliqua ut enim.",
+  //   ],
+  //   [
+  //     "Ex do",
+  //     "Non quis",
+  //     "Pariatur nostrud sunt",
+  //     "Commodo commodo cillum laboris aliquip occaecat cupidatat irure aliquip fugiat velit mollit.Minim labore aute consequat laboris cillum aliqua ut enim.",
+  //   ],
+  // ],
 };
 
 export default data;
