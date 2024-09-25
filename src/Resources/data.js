@@ -181,12 +181,13 @@ const data = {
       cvVid,
     ],
     [
-      "Thai Airways",
+      "Thai Airways (Print Ad)",
       "This was one the earliest days in my career and this was one the first brands I have worked for. With the given specific destination, the campaign was to promote Thai airways using visual elements.",
       thaiImg,
       thaiVid,
     ],
     ["Other Works", "Some of my other notable works.", randImg, randVid],
+    // Keep fans above all in the end
     [
       "#FansAboveAll",
       "Launching our new range of fans in collaboration with Sunrisers Hyderabad, we rolled out the #FansAboveAll campaign, tapping into the cricket fervor and brand synergy. The campaign took our social media engagement by storm, achieving a brand reach of 25 million and a follower growth of 210%. Remarkably, our fans went out of stock on both Amazon and Flipkart within three weeks of the campaign's launch.",

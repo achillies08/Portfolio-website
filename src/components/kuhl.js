@@ -51,7 +51,7 @@ const HomePage = () => {
               p={"5%"}
             >
               <Typography variant="h2">Kühl X SRH</Typography>
-              <Typography variant="h4">{data.bestWorks[0][0]}</Typography>
+              <Typography variant="h4">{data.bestWorks[data.bestWorks.length -1][0]}</Typography>
               <Button
                 variant="contained"
                 style={{ marginTop: "5%" }}
@@ -89,7 +89,7 @@ const HomePage = () => {
               color={dark ? "#9fa2a5" : "black"}
               pb="1%"
             >
-              {data.bestWorks[0][0]}
+              {data.bestWorks[data.bestWorks.length -1][0]}
             </Typography>
             <Box
               display={{ xs: "none", md: "inline-flex" }}
@@ -109,7 +109,7 @@ const HomePage = () => {
               color={dark ? "#9fa2a5" : "black"}
               fontFamily="montserrat"
             >
-              {data.bestWorks[0][1]}
+              {data.bestWorks[data.bestWorks.length -1][1]}
             </Typography>
             <Grid
               container
@@ -120,7 +120,7 @@ const HomePage = () => {
               pb="2%"
             >
               {/* Video */}
-              {data.bestWorks[0][3].map((item) => (
+              {data.bestWorks[data.bestWorks.length -1][3].map((item) => (
                 <Grid item spacing={2}>
                   <Card p="1%">
                     <CardMedia
@@ -137,7 +137,7 @@ const HomePage = () => {
                 </Grid>
               ))}
               {/* Images */}
-              {data.bestWorks[0][2].map((item) => (
+              {data.bestWorks[data.bestWorks.length -1][2].map((item) => (
                 <Grid item spacing={2}>
                   <Card p="1%" pb={"10%"}>
                     <CardActionArea>
