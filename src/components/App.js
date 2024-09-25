@@ -13,6 +13,7 @@ import BestWork from "./bestWorks";
 import renderContext from "./renderContext";
 import { ThemeProvider } from "@mui/material/styles";
 import { lightTheme, darkTheme } from "./theme";
+import VideoAds from "./videoAds";
 // import Testimonials from "./testimonials";
 
 function App() {
@@ -26,9 +27,10 @@ function App() {
             <Bar />
             <Box sx={{ width: "100%", height: "100%" }}>
               <HomePage />
-              <Kuhl/>
+              <Kuhl />
+              <VideoAds />
               <WorkTimeline />
-              <BestWork/>
+              <BestWork />
               <Works />
               {/* <Testimonials/> */}
               <Contact />
